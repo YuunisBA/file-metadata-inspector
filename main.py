@@ -10,7 +10,7 @@ file_path = Path(input("Enter a file path: ").strip()).expanduser()
 if not file_path.is_file():
     print("The file could not be found.")
 else:
-    details = file_path.start()
+    details = file_path.stat()
 
     file_type, _ = mimetypes.guess_type(file_path.name)
 

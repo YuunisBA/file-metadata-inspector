@@ -1,0 +1,4 @@
+This is a sample file for testing the file metadata inspector.
+It contains a few lines of ordinary text.   ---   ---    ---- 
+
+

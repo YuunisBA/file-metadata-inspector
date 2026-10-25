@@ -48,5 +48,4 @@ else:
         print(f"type: {file_type or 'uknown'}")
         print(f"size: {details.st_size:,} bytes")
         print(f"last modified: {datetime.fromtimestamp(details.st_mtime)}")
-        print(f"Last modified: {datetime.fromtimestamp(details.st_mtime)}")
         print(f"SHA-256: {hasher.hexdigest()}")
